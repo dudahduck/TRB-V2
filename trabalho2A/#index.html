@@ -1,34 +1,62 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<DOCTYPE html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
-    <title>Flashcard</title>
+    <title>Flashcards Históricos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <section id="container"> <!-- container on todos os cartoes estao localizados-->
-            <!-- Abaixo esta o exemplo de como o codigo ficaria caso ele fosse aplicado apenas no index html e nao no javascript
-             cada cartao seria o codigo abaixo replicado - EX: caso ouvesse 5 cartoes o codigo seria repetiudo 5 vezes 
-            <article class="cartao"> - usa o elemento article para cria um "Artigo dentro do htmal"
-                <div class="cartao__conteudo">
-                    <h3>Programação</h3> - topico da pergunta
-                    <div class="cartao__conteudo__pergunta">
-                        <p>porque fazemos coco?</p> - pergunta
-                    </div>
-                    <div class="cartao__conteudo__resposta">
-                        <p>porque o que entra sai</p> - resposta
-                    </div>
-                </div>
-            </article> 
-            -->
-        </section>
-    </main>
-    <footer> <!--rodape da pagina-->
-        <p>Maria Eduarda Dück e Cristian Matheus.</p><!-- coloque os nomes dos membros da equipe aqui-->
-    </footer>
-    <script src="app.js"></script> 
-    <script src="perguntas.js"></script> <!-- ativa os scrips de javascript-->
+    <div class="container">
+        <div class="flashcard" id="flashcard1">
+            <div class="frente">
+                <h2>Quem foi o primeiro imperador romano?</h2>
+            </div>
+            <div class="verso">
+                <h2>Augusto</h2>
+            </div>
+        </div>
+        <div class="flashcard" id="flashcard2">
+            <div class="frente">
+                <h2>Qual foi o nome da primeira mulher a voar no espaço?</h2>
+            </div>
+            <div class="verso">
+                <h2>Valentina Tereshkova</h2>
+            </div>
+        </div>
+        <div class="flashcard" id="flashcard3">
+            <div class="frente">
+                <h2>Quem pintou a Mona Lisa?</h2>
+            </div>
+            <div class="verso">
+                <h2>Leonardo da Vinci</h2>
+            </div>
+        </div>
+        <div class="flashcard" id="flashcard4">
+            <div class="frente">
+                <h2>Qual foi o nome do navio de Colombo?</h2>
+            </div>
+            <div class="verso">
+                <h2>Santa Maria</h2>
+            </div>
+        </div>
+        <div class="flashcard" id="flashcard5">
+            <div class="frente">
+                <h2>Quem foi o autor da Declaração da Independência dos EUA?</h2>
+            </div>
+            <div class="verso">
+                <h2>Thomas Jefferson</h2>
+            </div>
+        </div>
+        <div class="flashcard" id="flashcard6">
+            <div class="frente">
+                <h2>Qual foi o nome do faraó que construiu a Grande Pirâmide de Gizé?</h2>
+            </div>
+            <div class="verso">
+                <h2>Khufu</h2>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
